@@ -11,6 +11,7 @@ import PersonnelTab from './components/PersonnelTab';
 import CongressModal from './components/CongressModal';
 import { Search, Globe, Layout, Map as MapIcon, Image as ImageIcon, Gamepad2, Users, Box, Maximize2, Minimize2 } from 'lucide-react';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const UI_LABELS = {
     vi: {
@@ -303,6 +304,7 @@ export default function App() {
                 </div>
             </main>
             <Analytics />
+            <SpeedInsights />
         </div>
     );
 }
