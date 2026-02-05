@@ -292,6 +292,13 @@ export default function App() {
                                 title="3D Experience"
                                 allowFullScreen
                             ></iframe>
+                            <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-10
+                                bg-black/60 backdrop-blur px-4 py-1.5 rounded-full
+                                text-[11px] text-gray-200 text-center">
+                                {lang === 'vi'
+                                    ? 'Nguồn: Triển lãm trực tuyến 95 năm Đảng Cộng sản Việt Nam – Báo Nhân Dân'
+                                    : '3D demo source: Online Exhibition “95 Years of the Communist Party of Vietnam” – Nhan Dan Newspaper'}
+                            </div>
                         </div>
                     )}
 
